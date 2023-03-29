@@ -22,3 +22,12 @@ a:hover {
 a:focus {
   color: #3760b3;
 }
+
+figure {
+    margin: 0;
+    height: 190px;
+}
+
+p {
+    margin: 0;
+}
