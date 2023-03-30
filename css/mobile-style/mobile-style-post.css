@@ -25,7 +25,7 @@
 .post__container__humans-img {
   width: 50px;
   height: 392px;
-  object-fit:cover;
+  object-fit: cover;
   order: 0;
 }
 
@@ -100,9 +100,15 @@
   flex-direction: column;
 }
 
+.post__container__text__bottom__line__info {
+  display: flex;
+  flex-direction: row;
+}
+
 .post__container__text__bottom__line {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 10px;
   border-bottom: 1px solid #dddddd;
 }
