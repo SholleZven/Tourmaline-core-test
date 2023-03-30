@@ -25,7 +25,7 @@
 .post__container__humans-img {
   width: 50px;
   height: 392px;
-  object-fit: cover;
+  object-fit:cover;
   order: 0;
 }
 
