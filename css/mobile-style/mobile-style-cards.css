@@ -25,7 +25,12 @@
 .cards__container__card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+.cards__container__card:last-child {
+  border-bottom: 1px solid #dddddd;
 }
 
 .cards__container__card__image {
@@ -71,6 +76,7 @@
   font-size: 16px;
   line-height: 115%;
   text-transform: uppercase;
+  letter-spacing: 0.03125em;
 }
 
 .cards__container__card__text__subtitle__text-card {
